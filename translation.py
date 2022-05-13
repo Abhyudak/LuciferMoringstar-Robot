@@ -11,21 +11,21 @@ class LuciferMoringstar(object):
 
 🧑 My Creator : {dev_name}
 
-📦 My Source : [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+📦 My Source : [Click Here](https://telegra.ph/file/62acee55e7901dbceb30e.jpg)
 
-📺 My Tutorial : [Ckick Here](https://youtu.be/FCU_XJmyG_U)
+📺 My Tutorial : [Click Here](https://telegra.ph/file/6a49df95fa73a0b9efb87.jpg)
 
-🗃️ My Library : [Pyrogram](https://youtu.be/Af055Eozk9s)
+🗃️ My Library : [Pyrogram](www.program.com)
 
-🖇️ My Language : [Python3](https://youtu.be/Af055Eozk9s)
+🖇️ My Language : [Python3]()
 
-🗃️ My Database : [Mongodb](https://youtu.be/gBLTsH-IXr0)
+🗃️ My Database : [Private Db](htr0)
 
-🗳️ My Server : [Heroku](https://youtu.be/xcZD55td6Vw)
+🗳️ My Server : [Private Server](w)
 
-🏷️ My Updates : [Mo Tech](t.me/Mo_Tech_YT)
+🏷️ My Updates : [Channel](https://t.me/akvXbotz)
 
-🗣️ My Support : [Any Doubt](t.me/Mo_Tech_Group)"""
+🗣️ My Support : [Any Doubt](t.me/Toxicboymx)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
