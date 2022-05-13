@@ -12,7 +12,7 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("❗☣️➕️ Add me to Your Chat ➕️☣️❗", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+             InlineKeyboardButton("☣️❗➕️ Add me to Your Chat ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
              ],[
              InlineKeyboardButton("🥵 Help", callback_data="help"),
              InlineKeyboardButton("😎 About", callback_data="about") 
@@ -22,7 +22,7 @@ async def start_message(bot, message):
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("❗☣️➕️ Add me to Your Chat ➕️☣️❗", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+             InlineKeyboardButton("☣️❗➕️ Add me to Your Chat ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
              ],[
              InlineKeyboardButton("🥵 Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
