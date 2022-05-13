@@ -262,23 +262,23 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("☣️❗➕ Add me to Your Chat ➕❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
-                 InlineKeyboardButton("ℹ️ Help", callback_data="help"),
+                 InlineKeyboardButton("🥵 Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
                  InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/FCU_XJmyG_U"),
-                 InlineKeyboardButton("🤖 Update", url="https://t.me/Mo_Tech_Group")
+                 InlineKeyboardButton("📈 Update", url="https://t.me/Mo_Tech_Group")
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("➕️ Add me to Your Chat ➕️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("☣️❗➕ Add me to Your Chat ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
-                 InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
+                 InlineKeyboardButton("🥵 Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
                  InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/FCU_XJmyG_U"),
-                 InlineKeyboardButton("🤖 Update", url="https://t.me/Mo_Tech_Group")
+                 InlineKeyboardButton("📈 Update", url="https://t.me/Mo_Tech_Group")
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
