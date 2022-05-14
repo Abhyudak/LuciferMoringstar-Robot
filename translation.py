@@ -17,7 +17,7 @@ class LuciferMoringstar(object):
 
 🗃️ My Library : [Pyrogram](www.program.com)
 
-🖇️ My Language : [Python3]()
+🖇️ My Language : [Python3](www.python.org)
 
 🗃️ My Database : [Private Db](htr0)
 
