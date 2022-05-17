@@ -40,11 +40,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("☜︎︎︎ Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -58,11 +58,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("☜︎︎︎ Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -85,11 +85,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("Next Page ➪", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -102,11 +102,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("☜︎︎︎ Back Page", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -132,11 +132,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("☜︎︎︎ Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -147,11 +147,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("☜︎︎︎ Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -171,11 +171,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("Next Page ➪", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -186,11 +186,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("☜︎︎︎ Back Page", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("Close ⌫", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -262,9 +262,9 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("☣️❗➕ Add me to Your Chat ➕❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("☣️❗➕ ᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀɴɴᴇʟ ➕❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
-                 InlineKeyboardButton("🥵 Help", callback_data="help"),
+                 InlineKeyboardButton("ℍ𝔼𝕃ℙ ", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
                  InlineKeyboardButton("🗳 Deploy", url="https://t.me/ToxicboymX"),
@@ -272,7 +272,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("☣️❗➕ Add me to Your Chat ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("☣️❗➕  ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
                  InlineKeyboardButton("🥵 Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
