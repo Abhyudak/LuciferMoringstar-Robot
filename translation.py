@@ -7,7 +7,7 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 ✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: [{bot_name}](t.me/{bot_username})
 
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: {DEV_NAME}
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: {dev_name}
 
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙺𝚄𝙽𝙽𝙰𝙼𝙺𝚄𝙻𝙰𝙼 
 
