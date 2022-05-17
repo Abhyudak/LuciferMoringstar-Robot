@@ -26,6 +26,13 @@ class LuciferMoringstar(object):
 🏷️ My Updates : [Channel](https://t.me/akvXbotz)
 
 🗣️ My Support : [Any Doubt](t.me/Toxicboymx)"""
+ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/ToxicboymX>𝙰𝙺-𝙻𝚄𝙲𝙸𝙵𝙴𝚁</a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙺𝚄𝙽𝙽𝙰𝙼𝙺𝚄𝙻𝙰𝙼 
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙼𝙰𝙻𝙰𝚈𝙰𝙻𝙰𝙼
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝚄𝙽𝙸𝚃𝙴𝙳 𝙺𝙾𝙻𝙻𝙰𝙼
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙲𝙰𝙻𝙸𝙲𝚄𝚃
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 2.0
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
