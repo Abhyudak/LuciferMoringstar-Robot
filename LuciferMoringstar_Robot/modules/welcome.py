@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import Client as LuciferMoringstar_Robot, filters as Worker, emoji
 
 MENTION = "{}"  
-MESSAGE = "{} Welcome to {}!" 
+MESSAGE = "{} Welcome {}!" 
 
 @LuciferMoringstar_Robot.on_message(Worker.new_chat_members)
 async def welcome(client, message):
