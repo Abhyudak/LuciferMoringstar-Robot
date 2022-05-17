@@ -262,9 +262,9 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("☣️❗➕ 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀɴɴᴇʟ ➕❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("☣️❗➕ 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ ➕❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
-                 InlineKeyboardButton("ℍ𝔼𝕃ℙ ☻︎, callback_data="help"),
+                 InlineKeyboardButton("ℍ𝔼𝕃ℙ ☻︎", callback_data="help"),
                  InlineKeyboardButton("𝔸𝔹𝕆𝕌𝕋 ✈︎", callback_data="about") 
                  ],[
                  InlineKeyboardButton("♡︎ 𝕎𝕠𝕣𝕜𝕚𝕟𝕘 𝕘𝕣𝕦𝕡 ♡︎", url="https://t.me/AkvMovieHub"),
@@ -272,7 +272,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("☣️❗➕ 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀɴɴᴇʟ ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("☣️❗➕ 𝐀ᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
                  ],[
                  InlineKeyboardButton("ℍ𝔼𝕃ℙ ☻︎", callback_data="bot_owner"),
                  InlineKeyboardButton("𝔸𝔹𝕆𝕌𝕋 ✈︎", callback_data="about") 
