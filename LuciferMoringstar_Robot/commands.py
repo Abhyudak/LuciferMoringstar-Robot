@@ -12,23 +12,23 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("☣️❗➕️ Add me to Your Chat ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+             InlineKeyboardButton("☣️❗➕️ Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀɴɴᴇʟ ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
              ],[
-             InlineKeyboardButton("🥵 Help", callback_data="help"),
-             InlineKeyboardButton("😎 About", callback_data="about") 
+             InlineKeyboardButton("ℍ𝔼𝕃ℙ ☻︎", callback_data="help"),
+             InlineKeyboardButton("𝔸𝔹𝕆𝕌𝕋 ✈︎", callback_data="about") 
              ],[
-             InlineKeyboardButton("🗳 Deploy", url="https://t.me/ToxicboymX"),
-             InlineKeyboardButton("📈 Support", url="https://t.me/akvXbotz")
+             InlineKeyboardButton("♡︎ 𝕎𝕠𝕣𝕜𝕚𝕟𝕘 𝕘𝕣𝕦𝕡 ♡︎", url="https://t.me/AkvMovieHub")
+             InlineKeyboardButton("☏︎ 𝕊𝕌ℙℙ𝕆ℝ𝕋 ☏︎", url="https://t.me/ToxicboymX")
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("☣️❗➕️ Add me to Your Chat ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
+             InlineKeyboardButton("☣️❗➕️ Aᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀɴɴᴇʟ ➕️❗☣️", url=f"http://t.me/{bot_info.BOT_USERNAME}?startgroup=true")
              ],[
-             InlineKeyboardButton("🥵 Help", callback_data="bot_owner"),
-             InlineKeyboardButton("😎 About", callback_data="about") 
+             InlineKeyboardButton("ℍ𝔼𝕃ℙ ☻︎", callback_data="bot_owner"),
+             InlineKeyboardButton("𝔸𝔹𝕆𝕌𝕋 ✈︎", callback_data="about") 
              ],[
-             InlineKeyboardButton("🗳 Deploy", url="https://t.me/ToxicboymX"),
-             InlineKeyboardButton("📈 Support", url="https://t.me/akvXbotz")
+             InlineKeyboardButton("♡︎ 𝕎𝕠𝕣𝕜𝕚𝕟𝕘 𝕘𝕣𝕦𝕡 ♡︎", url="https://t.me/AkvMovieHub"),
+             InlineKeyboardButton("☏︎ 𝕊𝕌ℙℙ𝕆ℝ𝕋 ☏︎", url="https://t.me/ToxicboymX")
              ]]    
         await message.reply_photo(photo = random.choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
@@ -49,8 +49,8 @@ async def start_message(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
     button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("About 😎", callback_data="about")
+     InlineKeyboardButton("ℍ𝕠𝕞𝕖 🏡", callback_data="start"),
+     InlineKeyboardButton("𝔸𝕓𝕠𝕦𝕥 ✈︎", callback_data="about")
      ]]
     await message.reply_photo(
         photo = random.choice(BOT_PICS),
@@ -60,8 +60,8 @@ async def help(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["about"]))
 async def about(bot, message):
     button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("Close 🗑️", callback_data="close")
+     InlineKeyboardButton("ℍ𝕠𝕞𝕖 🏡", callback_data="start"),
+     InlineKeyboardButton("ℂ𝕝𝕠𝕤𝕖 ⌫", callback_data="close")
      ]]  
     await message.reply_photo(
         photo=random.choice(BOT_PICS),
